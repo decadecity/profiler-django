@@ -25,7 +25,7 @@ def combine(first, second):
             if store:
                 first[key] = store
     for (key, value) in second.items():
-        tr
+        try:
             value = int(value)
             if value:
                 first[key] = True
